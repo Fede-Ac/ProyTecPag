@@ -1,3 +1,4 @@
+/* No tocar xd */
 /* Grilla */
 * {box-sizing: border-box;}
 .row::after {content: ""; clear: both; display: table;}
@@ -15,11 +16,72 @@
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-
 /* Media queries */
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   [class*="col-"] {
     width: 100%;
   }
+  li {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+  }
+  li a:hover:not(.active) {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+}
+.active{
+    background-color: #004848;
+    width: 100%;
+}
+a {
+    width: 100%;
+}
+}
+/* No tocar xd */
+
+body {
+    margin: 0;
+    margin-top: 0;
+}
+
+.toper{
+    background-color: #333;
+    height: 60px;
+    margin-top: -21px;
+    text-align: center;
+}
+/*menú*/
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgba(50, 50, 50, 1);
+    opacity: 75%;
+    top: 0;
+    width: 100%;
+}
+
+    li {float: left;}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 16px 22px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li a:hover:not(.active) {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.active{
+    background-color: #004848;
 }
