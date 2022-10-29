@@ -4,14 +4,12 @@
     padding: 0;
 }
 
-#footer {
+#header {
     padding-right: 5%;
     display: inline-block;
     background-color: #333;
-    text-align: right;
+    
     color: white;
-
-
 }
 
 .header {
@@ -19,12 +17,21 @@
     height: 72px;
 }
 
+.footer {
+    background-color: black;
+    color: white;
+    margin-top: 2px;
+}
+
 .cubito {
+    margin: 0;
     height: 100%;
-    padding-left: 3%;
+    max-width: 100%;
 }
 
 .tec {
     top: 50%;
+    font-size: 2vw;
     display: inline-block;
+    padding-left: auto;
 }
