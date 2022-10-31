@@ -12,7 +12,7 @@
 body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    overflow-x: scroll;
 }
 /* Media queries */
 
@@ -24,7 +24,7 @@ body {
     background-color: black;
     color: white;
     top: 0;
-    position: fixed;
+    position: sticky;
 }
 
 .footer {
@@ -56,7 +56,6 @@ iframe {
     border: none;         
     height: 100vh;        
     width: 100vw;
-    margin-top: 72px;
 }
 
 .body {
@@ -68,20 +67,10 @@ iframe {
 /*menu*/
 .menus {
     top: 0;
-    position: fixed;
+    position: sticky;
+    display: inline-block;
 }
 /*menu*/
-
-
-/* clases para usar en el primer y ultimo div de cada pagina que esté dentro del iframe*/
-.arriba {
-    margin-top: 60px;
-}
-
-.abajo {
-    margin-bottom: 100px;
-}
-/* clases para usar en el primer y ultimo div de cada pagina que esté dentro del iframe*/
 
 .titulos {
     text-align: center;
