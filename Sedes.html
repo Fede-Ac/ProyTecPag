@@ -9,49 +9,76 @@
     <title>Sedes</title>
 </head>
 <body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
     <div>
-        <div class="col-12 menus">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" href="#"></a>
-                    <div class=" navbar-collapse" id="navbarNavAltMarkup ">
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link active" href="Sedes.html">Sedes <span class="sr-only">(Actual)</span></a>
-                        <a class="nav-item nav-link" href="Información General.html">Información General</a>
-                        <a class="nav-item nav-link" href="Enlaces.html">Enlaces</a>
-                        <a class="nav-item nav-link" href="Contactos.html">Contactos</a>
-                        <a class="nav-item nav-link" href="Reválidas.html">Reválidas</a>
-                    </div>
-                </div>
-              </nav>
-        </div>
+        
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+
+              <button class="navbar-toggler position-static top-0 end-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-item nav-link active" href="Sedes.html">Sedes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-item nav-link" href="Información General.html">Información General</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-item nav-link" href="Contactos.html">Contactos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-item nav-link" href="Reválidas.html">Reválidas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-item nav-link" href="Enlaces.html">Enlaces</a>
+                  </li>
+                  
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success bg-light border border-ligth" type="submit"> <span class="text-dark">Search</span></button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    
+       
 
         <div>
             <h2 class="col-12 titulos">SEDES</h2>
         </div>
         
-        <div class="col-5 sedes">
-        <a href="">
-            <img src="Img/sedemaldonado.jpg" alt="">
-            <p>Maldonado</p>
-        </a>
-        </div>
-        <div class="col-5 sedes">
-        <a href="Mvd/MvdNovedades.html">
-            <img src="Img/sedemontevideo.jpg" alt="">
-            <p>Montevideo (la que funciona por ahora)</p>
-        </a>
-        </div>
-        <div class="col-5 sedes">
-        <a href="">
-            <img src="Img/sedepaysandu.jpg" alt="">
-            <p>Paysandú</p>
-        </a>
-        </div>
-        <div class="col-5 sedes">
-        <a href="">
-            <img src="Img/sedesanjose.jpg" alt="">
-            <p>San José</p>
-        </a>
+        <div class="c-sedes">
+          <div class="sedes">
+            <a href="">
+              <img src="Img/sedemaldonado.jpg" alt="">
+              <p><span class="text-dark">Maldonado</span></p>
+            </a>
+          </div>
+          <div class="sedes">
+            <a href="Mvd/MvdNovedades.html">
+              <img src="Img/sedemontevideo.jpg" alt="">
+              <p><span class="text-dark">Montevideo (la que funciona por ahora)</span></p>
+            </a>
+          </div>
+          <div class="sedes">
+            <a href="">
+              <img src="Img/sedepaysandu.jpg" alt="">
+              <p><span class="text-dark">Paysandú</span></p>
+            </a>
+          </div>
+          <div class="sedes">
+            <a href="">
+              <img src="Img/sedesanjose.jpg" alt="">
+              <p><span class="text-dark">San José</span></p>
+            </a>
+          </div>
+          
         </div>
     </div>
 </body>
