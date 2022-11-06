@@ -108,35 +108,15 @@ iframe {
     margin:auto;
     display:block;
 }
+
+.no-link{
+    text-decoration: none;
+}
 /*detalles de paginas*/
 
 
 /*sedes*/
-.c-sedes {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-items: center;
-
-}
-.sedes {
-    align-items:center;
-    width: 50%;
-    height: 400px;
-    overflow: hidden;
-    position: relative;
-    cursor: pointer;
-    justify-content: center;
-    flex-direction: column;
-}
-.sedes > a {
-    text-align: center;
-    text-decoration: none;
-}
-.sedes > img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    overflow: clip;
+.margen-sedes{
+    margin: 1% 2% 25% 2% ;
 }
 /*sedes*/
